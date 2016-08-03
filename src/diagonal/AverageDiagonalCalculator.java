@@ -7,7 +7,10 @@ public class AverageDiagonalCalculator {
 public static void main(String[] args) {
 	
 	Scanner scan1 = new Scanner(System.in);
-	int[][] numArray = new int [3][3];
+	System.out.println("Please enter the size of the square");
+	int arraySize = scan1.nextInt();
+	scan1.nextLine();
+	int[][] numArray = new int [arraySize][arraySize];
 	
 	int input;
 	
